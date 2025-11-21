@@ -82,12 +82,6 @@ Psyvrse exists to **upgrade** it.
 
 # **A MESSAGE TO THE INDUSTRY**
 
-Mee6.
-Dyno.
-Carl.
-BotGhost.
-Sapphire.
-
 This is not a threat.
 This is clarity:
 
@@ -104,6 +98,8 @@ Keep your “premium roles” and “pay-to-unlock moderation.”
 Psyvrse is free.
 Psyvrse is community-driven.
 Psyvrse is inevitable.
+
+You know you who are.
 
 ---
 
