@@ -44,6 +44,25 @@ nav ul {
 nav li {
     font-size: 1.2em;
 }
+/* ================== BUTTON ================== */
+.gold-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: black;
+    color: gold;
+    border: 2px solid gold;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.25s;
+    margin: 10px;
+}
+
+.gold-button:hover {
+    background-color: gold;
+    color: black;
+    transform: scale(1.05);
+}
 
 /* ================== MAIN ================== */
 main {
