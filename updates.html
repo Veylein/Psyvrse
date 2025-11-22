@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psyvrse Devs - Updates</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000; /* Black background */
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid gold;
+        }
+
+        header h1 {
+            margin: 0;
+            color: gold;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: gold;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 20px;
+        }
+
+        .update-card {
+            background-color: #111;
+            border: 2px solid gold;
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .update-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 15px gold;
+        }
+
+        .update-card h3 {
+            margin-top: 0;
+            color: gold;
+        }
+
+        .update-card p {
+            color: #ccc;
+        }
+
+        .update-date {
+            font-size: 0.9em;
+            color: #aaa;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid gold;
+            margin-top: 40px;
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Updates</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="devs.html">Developers</a></li>
+                <li><a href="invite.html">Invites</a></li>
+                <li><a href="updates.html">Updates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <p>Each of our bots can be invited either through here or through Discord discovery.</p>
+            <h2>Latest Updates</h2>
+        </section>
+
+        <div class="cards-container">
+            <div class="update-card">
+                <div class="update-date">Nov 22, 2025</div>
+                <h3>Added Music Feature to <strong>Ludus</strong></h3>
+                <p>Users can now play music directly in voice channels using the bot. Supports YouTube links and search commands.</p>
+            </div>
+
+            <div class="update-card">
+                <div class="update-date">Nov 15, 2025</div>
+                <h3>Bug Fixes & Optimizations for <strong>All Bots</strong></h3>
+                <p>Fixed multiple minor bugs and improved response time for commands across all servers.</p>
+            </div>
+
+            <div class="update-card">
+                <div class="update-date">Nov 10, 2025</div>
+                <h3>New Games Added to <strong>Ludus</strong></h3>
+                <p>Added Guess the Word, Blackjack, and Fishing minigames for server entertainment.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Psyvrse Development Studio</p>
+    </footer>
+</body>
+</html>
