@@ -73,6 +73,14 @@ main {
     font-size: 1.1em;
 }
 
+.intro {
+    background: #0f2336;
+    border: 1px solid #f1c376;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
 /* ================== FOOTER ================== */
 footer {
     text-align: center;
@@ -80,4 +88,11 @@ footer {
     border-top: 2px solid #f1c376;
     margin-top: 40px;
     color: #f1c376;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 16px;
 }
