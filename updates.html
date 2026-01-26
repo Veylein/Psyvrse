@@ -6,55 +6,9 @@
     <title>Get the latest Updates</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #000; /* Black background */
-            color: #fff;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #111;
-            padding: 20px;
-            text-align: center;
-            border-bottom: 2px solid gold;
-        }
-
-        header h1 {
-            margin: 0;
-            color: gold;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        nav ul li a:hover {
-            color: gold;
-        }
-
-        main {
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
         .cards-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 20px;
             width: 100%;
             max-width: 1200px;
@@ -62,8 +16,8 @@
         }
 
         .update-card {
-            background-color: #111;
-            border: 2px solid gold;
+            background-color: #0f2336;
+            border: 2px solid #f1c376;
             border-radius: 10px;
             padding: 20px;
             transition: transform 0.3s, box-shadow 0.3s;
@@ -71,30 +25,22 @@
 
         .update-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 0 15px gold;
+            box-shadow: 0 0 15px rgba(241, 195, 118, 0.35);
         }
 
         .update-card h3 {
             margin-top: 0;
-            color: gold;
+            color: #f1c376;
         }
 
         .update-card p {
-            color: #ccc;
+            color: #e3d9c7;
         }
 
         .update-date {
             font-size: 0.9em;
-            color: #aaa;
+            color: #c9a24f;
             margin-bottom: 10px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            border-top: 2px solid gold;
-            margin-top: 40px;
-            color: gold;
         }
     </style>
 </head>
@@ -103,46 +49,46 @@
         <h1>Updates</h1>
         <nav>
             <ul>
-                <li><a href="index.html"> | Home | </a></li>
-                <li><a href="devs.html"> | Developers | </a></li>
-                <li><a href="invite.html"> | Invites | </a></li>
-                <li><a href="updates.html"> | Updates | </a></li>
-                <li><a href="TOS.html"> | TOS | </li>
-                <li><a href="Privacy.html"> | Privacy | </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="devs.html">Developers</a></li>
+                <li><a href="invite.html">Invites</a></li>
+                <li><a href="updates.html">Updates</a></li>
+                <li><a href="TOS.html">TOS</a></li>
+                <li><a href="Privacy.html">Privacy</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="intro">
-            <p>Each of our bots can be invited either through here or through Discord discovery.</p>
-            <h2>Latest Updates</h2>
-        </section>
+         <section class="intro">
+             <p>Each of our bots can be invited either through here or through Discord discovery.</p>
+             <h2>Latest Updates</h2>
+             <p>Stay in sync with our latest drops, performance passes, and feature rollouts.</p>
+         </section>
         
         <div class="cards-container">
             <div class="update-card">
                 <div class="update-date">Dec 21, 2025</div>
                 <h3>Revamped all of <strong>Psyvrse Bots</strong></h3>
-                <p> | Ludus has been removed | Villicus has been recreated | Ludus has had a Revamp | And so much more! | </p>
+                 <p>Ludus retired, Villicus reborn, platform-wide polish, and new seasonal events across the ecosystem.</p>
             </div>
-            
-        <div class="cards-container">
+
             <div class="update-card">
                 <div class="update-date">Nov 22, 2025</div>
-                <h3>Added Music Feature to <strong>Ludus</strong></h3>
-                <p>Users can now play music directly in voice channels using the bot. Supports YouTube links and search commands.</p>
+                <h3>Premium Soundstage for <strong>Villicus</strong></h3>
+                <p>Immersive music and ambiance with curated playlists, smarter search, and seamless voice stability.</p>
             </div>
 
             <div class="update-card">
                 <div class="update-date">Nov 15, 2025</div>
-                <h3>Bug Fixes & Optimizations for <strong>All Bots</strong></h3>
-                <p>Fixed multiple minor bugs and improved response time for commands across all servers.</p>
+                <h3>Reliability Pass for <strong>All Bots</strong></h3>
+                <p>Latency tuned down, error paths hardened, and dashboards refreshed for faster insight.</p>
             </div>
 
             <div class="update-card">
                 <div class="update-date">Nov 10, 2025</div>
-                <h3>New Games Added to <strong>Ludus</strong></h3>
-                <p>Added Guess the Word, Blackjack, and Fishing minigames for server entertainment.</p>
+                <h3>New Games Added to <strong>Villicus</strong></h3>
+                <p>Guess the Word, Blackjack, Fishing, and seasonal arcade drops for continuous engagement.</p>
             </div>
         </div>
     </main>
