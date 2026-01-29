@@ -7,34 +7,124 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Home</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="devs.html">Developers</a></li>
-                <li><a href="invite.html">Invites</a></li>
-                <li><a href="updates.html">Updates</a></li>
-                <li><a href="TOS.html">TOS</a></li>
-                <li><a href="Privacy.html">Privacy</a></li>
-            </ul>
-        </nav>
+    <header class="holo-header">
+        <div class="holo-title">
+            <p class="eyebrow">psyvrse access</p>
+            <h1>Psyvrse Nexus</h1>
+            <p class="subtitle">Tap anywhere to breach the VIP hub.</p>
+        </div>
+        <div class="header-actions">
+            <a class="gold-button" id="launchHub" href="#hub">Launch Hub</a>
+        </div>
     </header>
 
     <main>
-        <section class="intro">
-            <h2>Who We Are — Psyvrse Devs</h2>
-            <p>We don’t make bots. We dissect servers, rewrite reality, and sell nothing but annihilation. While other devs cry in subscription fees, we drop universes in your lap — free, flawless, and venomously polished. Ludus, Pax, Velicous… these aren’t bots. They’re ecosystems with teeth, minigames that bleed, economies that breathe, AI that actually thinks.</p>
-            <p>250+ minigames? We don’t count. We curate chaos. Board games, card games, simulations, interconnected pets, fishing, farming, economies — we don’t innovate, we obliterate the concept. Other bots? They sell dust and call it gold. We hand you stars, galaxies, and black holes… for free.</p>
-            <p>Genres? We don’t enter them. We rewrite them, crush them, and make your RPGs, music bots, and moderation tools look like infant toys in the corner crying for relevance. Their “premium features”? Our baseline ecosystem. Our AI doesn’t assist. It dominates.</p>
-            <p>We are Psyvrse Devs. We smile while dismantling paywalls. We turn servers into living multiverses. We take what others charge for, and give it freely, violently, beautifully.</p>
-            <p>Other bots exist to be compared. We exist to erase comparison entirely. Welcome to the era where Discord stops being a platform and becomes our playground. And yes… it’s free.</p>
-            <p>We are Psyvrse Devs — a team unbound by convention, fueled by vision, and committed to shaping the future of Discord development. From Psyvrse Development Studios... it is a pleasure to meet you!</p>
+        <section class="activation-zone" id="activationZone">
+            <div class="intro">
+                <h2>Who We Are — Psyvrse Devs</h2>
+                <p>We don’t make bots. We dissect servers, rewrite reality, and sell nothing but annihilation. While other devs cry in subscription fees, we drop universes in your lap — free, flawless, and venomously polished. Ludus, Pax, Velicous… these aren’t bots. They’re ecosystems with teeth, minigames that bleed, economies that breathe, AI that actually thinks.</p>
+                <p>250+ minigames? We don’t count. We curate chaos. Board games, card games, simulations, interconnected pets, fishing, farming, economies — we don’t innovate, we obliterate the concept. Other bots? They sell dust and call it gold. We hand you stars, galaxies, and black holes… for free.</p>
+                <p>Genres? We don’t enter them. We rewrite them, crush them, and make your RPGs, music bots, and moderation tools look like infant toys in the corner crying for relevance. Their “premium features”? Our baseline ecosystem. Our AI doesn’t assist. It dominates.</p>
+                <p>We are Psyvrse Devs. We smile while dismantling paywalls. We turn servers into living multiverses. We take what others charge for, and give it freely, violently, beautifully.</p>
+                <p>Other bots exist to be compared. We exist to erase comparison entirely. Welcome to the era where Discord stops being a platform and becomes our playground. And yes… it’s free.</p>
+                <p>We are Psyvrse Devs — a team unbound by convention, fueled by vision, and committed to shaping the future of Discord development. From Psyvrse Development Studios... it is a pleasure to meet you!</p>
+                <div class="pulse-hint">Click anywhere to open the holographic hub.</div>
+            </div>
         </section>
     </main>
+
+    <div class="holo-overlay" id="holoOverlay" aria-hidden="true">
+        <div class="overlay-grid">
+            <div class="overlay-head">
+                <div>
+                    <p class="eyebrow">access level: vip</p>
+                    <h2>Holographic Hub</h2>
+                </div>
+                <button class="close-btn" id="closeHub" aria-label="Close hub">×</button>
+            </div>
+            <div class="holo-grid">
+                <article class="holo-card">
+                    <div class="card-glow"></div>
+                    <h3>Devs</h3>
+                    <p>Choose your architect.</p>
+                    <div class="card-links">
+                        <a href="devs.html">Devs</a>
+                        <a href="hulivili.html">Hulivili</a>
+                        <a href="infinium.html">Infinium</a>
+                        <a href="psy.html">Psy</a>
+                    </div>
+                </article>
+                <article class="holo-card">
+                    <div class="card-glow"></div>
+                    <h3>About</h3>
+                    <p>Trace the origin signal.</p>
+                    <div class="card-links">
+                        <a href="https://github.com/Veylein/Psyvrse" target="_blank" rel="noopener">GitHub</a>
+                        <a href="invite.html">Invite</a>
+                    </div>
+                </article>
+                <article class="holo-card">
+                    <div class="card-glow"></div>
+                    <h3>Legality</h3>
+                    <p>Stay compliant, stay awake.</p>
+                    <div class="card-links">
+                        <a href="TOS.html">TOS</a>
+                        <a href="Privacy.html">Privacy</a>
+                    </div>
+                </article>
+                <article class="holo-card">
+                    <div class="card-glow"></div>
+                    <h3>Updates</h3>
+                    <p>Real-time pulses.</p>
+                    <div class="card-links">
+                        <a href="updates.html">Updates</a>
+                    </div>
+                </article>
+                <article class="holo-card">
+                    <div class="card-glow"></div>
+                    <h3>Extra</h3>
+                    <p>Side channels & echoes.</p>
+                    <div class="card-links">
+                        <a href="README.md" target="_blank">Docs</a>
+                        <a href="index.html">Home</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <p>&copy; 2026 Psyvrse Development Studio</p>
     </footer>
+
+    <script>
+        const overlay = document.getElementById('holoOverlay');
+        const activationZone = document.getElementById('activationZone');
+        const launchHub = document.getElementById('launchHub');
+        const closeHub = document.getElementById('closeHub');
+
+        const openHub = () => {
+            overlay.classList.add('open');
+            overlay.setAttribute('aria-hidden', 'false');
+        };
+
+        const closeOverlay = () => {
+            overlay.classList.remove('open');
+            overlay.setAttribute('aria-hidden', 'true');
+        };
+
+        activationZone.addEventListener('click', openHub);
+        launchHub.addEventListener('click', (e) => {
+            e.preventDefault();
+            openHub();
+        });
+        closeHub.addEventListener('click', closeOverlay);
+        overlay.addEventListener('click', (e) => {
+            if (e.target === overlay) closeOverlay();
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeOverlay();
+        });
+    </script>
 </body>
 </html>
