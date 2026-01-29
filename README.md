@@ -23,7 +23,7 @@ We are the **accelerated evolution of Discord development**.
 We are the studio that doesn’t follow trends — we *originate* them.
 We don’t adapt to Discord’s limitations — we erase them.
 
-Founded by **Psy Veylein**, alongside Aurora, ima_eric, normal_car, and Infinum, we exist for one reason:
+Founded by **Psy Veylein**, alongside Aurora, ima_eric, normal_car, and Infinium, we exist for one reason:
 
 ### **To push Discord robotics beyond anything the industry has dared to imagine.**
 
